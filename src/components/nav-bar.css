@@ -1,0 +1,10 @@
+.jd-sticky-nav-bar {
+    background-color: gray;
+    padding: 10px;
+    width: 200%;
+    z-index: 1;
+}
+
+.nav-link {
+    color: #ff9aa7;
+}
