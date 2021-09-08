@@ -4,7 +4,7 @@ import './nav-bar.css';
 
 const NavBar = () =>
     <div className="row sticky-top jd-sticky-nav-bar">
-        <ul className="nav nav-pills col-12">
+        <ul className="nav nav-pills col-1 col-sm-12">
             <div className = "col-1">
             </div>
             <li className="nav-item">
