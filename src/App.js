@@ -13,21 +13,23 @@ function App() {
     <BrowserRouter>
       <div className="container-fluid">
           <NavBar/>
-          <Route path="/" exact={true}>
-            <Home/>
-          </Route>
-          <Route path="/software" exact={true}>
-            <Software/>
-          </Route>
-          <Route path="/music" exact={true}>
-            <Music/>
-          </Route>
-          <Route path="/contact" exact={true}>
-            <Contact/>
-          </Route>
-          <Route path="/about" exact={true}>
-            <About/>
-          </Route>
+          <div className={"container"}>
+              <Route path="/" exact={true}>
+                <Home/>
+              </Route>
+              <Route path="/software" exact={true}>
+                <Software/>
+              </Route>
+              <Route path="/music" exact={true}>
+                <Music/>
+              </Route>
+              <Route path="/contact" exact={true}>
+                <Contact/>
+              </Route>
+              <Route path="/about" exact={true}>
+                <About/>
+              </Route>
+          </div>
       </div>
     </BrowserRouter>
   );
