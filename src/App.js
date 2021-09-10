@@ -7,6 +7,7 @@ import Software from "./components/software";
 import Music from "./components/music";
 import Contact from "./components/contact";
 import About from "./components/about";
+import ServerlessDiagram from "./components/serverless_diagram/aws_serverless_diagram";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
               <Route path="/" exact={true}>
                 <Home/>
               </Route>
-              <Route path="/software" exact={true}>
+              <Route path="/software" exact={false}>
                 <Software/>
               </Route>
               <Route path="/music" exact={true}>
@@ -28,6 +29,9 @@ function App() {
               </Route>
               <Route path="/about" exact={true}>
                 <About/>
+              </Route>
+              <Route path="/serverless_diagram" exact={false}>
+                  <ServerlessDiagram/>
               </Route>
           </div>
       </div>
