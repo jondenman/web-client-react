@@ -16,7 +16,7 @@ const ProjectCard = ({title, description, button, link, imageSrc}) => {
 
     return (
             <div className="card">
-                <img className="card-img-top" src={imageSrc} alt="Card image cap"/>
+                <img className="card-img-top rounded-circle" src={imageSrc} alt="Card image cap"/>
                 <div className="card-body">
                     <h5 className="card-title">
                         {title}
