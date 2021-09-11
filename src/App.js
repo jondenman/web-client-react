@@ -16,20 +16,22 @@ import ModalImage from "./components/modal_image";
 function App() {
   return (
     <BrowserRouter>
+      <Home/>
       <div className="container-fluid">
           <NavBar/>
           {/*<ModalImage/>*/}
           <div className={"container"}>
+
               <About/>
-              <Route path="/" exact={true}>
-                <Home/>
-              </Route>
+              {/*<Route path="/" exact={true}>*/}
+              {/*  */}
+              {/*</Route>*/}
               <Route path="/about" exact={false}>
                   <ScrollToTop/>
               </Route>
-              <Route path="/software" exact={false}>
+              {/*<Route path="/software" exact={false}>*/}
                 <Software/>
-              </Route>
+              {/*</Route>*/}
               <Route path="/music" exact={true}>
                 <Music/>
               </Route>

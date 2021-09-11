@@ -8,19 +8,32 @@ const NavBar = () =>
             {/*<div className = "col-1">*/}
             {/*</div>*/}
             <li className="nav-item">
-                <Link className="nav-link" to={`/`}>
+                <Link className="nav-link" onClick={() => {
+                    const anchor = document.querySelector('#home')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}>
                     Home
                 </Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to={`/about`}>
+                <Link className="nav-link" onClick={() => {
+                    const anchor = document.querySelector('#about')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}>
                     About
                 </Link>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" to={`/software`}>
+                {/*<Link className="nav-link" to={`/software`}>*/}
+                {/*    Software*/}
+                {/*</Link>*/}
+                <Link className="nav-link" onClick={() => {
+                    const anchor = document.querySelector('#software')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}>
                     Software
                 </Link>
+
             </li>
             {/*<li className="nav-item">*/}
             {/*    <Link className="nav-link" to={`/music`}>*/}
@@ -28,7 +41,10 @@ const NavBar = () =>
             {/*    </Link>*/}
             {/*</li>*/}
             <li className="nav-item">
-                <Link className="nav-link" to={`/contact`}>
+                <Link className="nav-link" onClick={() => {
+                    const anchor = document.querySelector('#contact')
+                    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }}>
                     Contact
                 </Link>
             </li>

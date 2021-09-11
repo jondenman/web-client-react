@@ -1,0 +1,32 @@
+.fill-window {
+    background-color: skyblue;
+    height: 50rem;
+    position: page;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.button {
+    border: 2px solid #fff;
+    box-sizing: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13pt;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+[data-reactroot]
+    {height: 100% !important; }
+
+/*html, body, #app, #app>div {*/
+/*    height: 100%*/
+/*}*/

@@ -3,7 +3,9 @@ import ProjectCard from "./project-card";
 import SkillCard from "./skill-card";
 
 const About = () =>
-    <div>
+    <div id={'about'}>
+        <br/>
+        <br/>
         <h1>About</h1>
         <h2>Core Languages</h2>
         <div className={"card-deck"}>
