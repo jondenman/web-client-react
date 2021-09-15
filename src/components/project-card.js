@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import {Link} from "react-router-dom";
 
-const ProjectCard = ({title, description, button, link, imageSrc}) => {
-    // const [editing, setEditing] = useState(false)
+const ProjectCard = ({title, description, button, link, imageSrc, external}) => {
+    // const [external, setExternal] = useState(false)
     // const [newTitle, setNewTitle] = useState(title)
 
     // const saveTitle = () => {
@@ -22,9 +22,20 @@ const ProjectCard = ({title, description, button, link, imageSrc}) => {
                         {title}
                     </h5>
                     <p className="card-text">{description}</p>
-                    <a href={link} className="btn btn-primary">
-                        {button}
-                    </a>
+                    {
+                        external &&
+                        <a href={link} className="btn btn-primary">
+                            {button} &nbsp;
+                            <i className="fas fa-external-link-alt"></i>
+                        </a>
+                    }
+                    {
+                        !external &&
+                        <a href={link} className="btn btn-primary">
+                            {button}
+                        </a>
+                    }
+
                 </div>
             </div>
     )

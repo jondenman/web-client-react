@@ -4,7 +4,7 @@ const SkillCard = ({title, description, imageSrc, altText}) => {
 
     return (
         <div className="card border-0 align-items-center">
-            <img className="card-img-top rounded-circle h-50"
+            <img className="card-img-top rounded-circle h-35 w-25"
                  src={imageSrc}
                  alt={altText}
                  // width={100}

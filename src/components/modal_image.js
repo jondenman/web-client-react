@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 import serverless_diagram_png from "../diagrams/serverless_diagram.png";
 
-const ModalImage = ({title, imgSrc, buttonText}) => {
+const ModalImage = ({title, imgSrc, buttonText, text}) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -20,6 +20,7 @@ const ModalImage = ({title, imgSrc, buttonText}) => {
                 </Modal.Header>
                 <Modal.Body>
                     <img src={imgSrc}></img>
+                    <p>{text}</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <a className={"btn btn-primary"} variant="secondary" onClick={handleClose}>

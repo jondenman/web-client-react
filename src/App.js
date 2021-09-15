@@ -32,12 +32,12 @@ function App() {
               {/*<Route path="/software" exact={false}>*/}
                 <Software/>
               {/*</Route>*/}
-              <Route path="/music" exact={true}>
-                <Music/>
-              </Route>
-              <Route path="/contact" exact={true}>
+              {/*<Route path="/music" exact={true}>*/}
+              {/*  <Music/>*/}
+              {/*</Route>*/}
+              {/*<Route path="/contact" exact={true}>*/}
                 <Contact/>
-              </Route>
+              {/*</Route>*/}
               <Route path="/serverless_diagram" exact={false}>
                   <ServerlessDiagram/>
               </Route>
