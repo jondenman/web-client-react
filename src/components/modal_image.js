@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 import serverless_diagram_png from "../diagrams/serverless_diagram.png";
 
-const ModalImage = ({title, imgSrc, buttonText, text}) => {
+const ModalImage = ({title, imgSrc, buttonText, text, isVideo, isHTML}) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -14,12 +14,23 @@ const ModalImage = ({title, imgSrc, buttonText, text}) => {
                 {buttonText}
             </a>
 
-            <Modal show={show} onHide={handleClose}>
+            <Modal show={show} onHide={handleClose} size={"lg"}>
                 <Modal.Header closeButton>
                     <Modal.Title>{title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={imgSrc}></img>
+                    {
+                        isVideo &&
+                        <video loop autoPlay={true} src={imgSrc} type={"videos/mov"}></video>
+                    }
+                    {
+                        !isVideo &&
+                        <img src={imgSrc}></img>
+                    }
+                    {
+                        isHTML &&
+                        <div dangerouslySetInnerHTML={ {__html: imgSrc} } />
+                    }
                     <p>{text}</p>
                 </Modal.Body>
                 <Modal.Footer>

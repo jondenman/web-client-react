@@ -8,9 +8,6 @@ const Contact = () =>
         <br/>
         <h1>Contact</h1>
         <FindMe/>
-        {/*<h2>*/}
-        {/*    <ButtonMailto label="Send me an email" mailto="mailto:denmanjonathan@gmail.com"/>*/}
-        {/*</h2>*/}
     </div>
 
 export default Contact
