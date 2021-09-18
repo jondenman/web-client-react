@@ -12,6 +12,7 @@ import ScrollToTop from "./components/scroll_to_top";
 import React from "react";
 import Modal from "./components/modal";
 import ModalImage from "./components/modal_image";
+import JournalMine from "./components/journal_mine";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
               {/*</Route>*/}
               <Route path="/serverless_diagram" exact={false}>
                   <ServerlessDiagram/>
+              </Route>
+              <Route path="/journal_mine" exact={false}>
+                  <JournalMine/>
               </Route>
           </div>
       </div>

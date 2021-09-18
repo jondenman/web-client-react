@@ -75,7 +75,7 @@ const Software = () =>
                              imageSrc={all_ears_png}
                              description={"Ear Training app developed for Android"}
                              button={"R Markdown"}
-                             link={""}/>
+                             link={"./journal_mine"}/>
             </div>
     </div>
 
