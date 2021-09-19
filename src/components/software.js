@@ -4,6 +4,8 @@ import all_ears_png from '../logos/all-ears-homepage.png';
 import archDiag from '../diagrams/serverless_diagram.png';
 import particle from '../screenshots/particle.png';
 import particle_gif from '../gifs/planet_vid.mov';
+import journal_data_mine from '../diagrams/journal_data_mine.pdf';
+import r_logo from '../logos/r_studio.png'
 import ModalImage from "./modal_image";
 // import medMine from "../R-html/journal_data_mine.html";
 
@@ -39,13 +41,12 @@ const Software = () =>
                         <h5 className="card-title">
                             Particle Simulator
                         </h5>
-                        <p className="card-text">Graphics project using OpenGL/C++ </p>
-                        <br/>
+                        <p className="card-text">Graphics project using OpenGL and C++ </p>
                         <ModalImage title={"Particle Simulator"}
                                     isVideo={true}
                                     imgSrc={particle_gif}
                                     buttonText={"Show Gif"}
-                                    text={`A particle simulator created in OpenGL/C++.\n
+                                    text={`A particle simulator created in OpenGL and C++.\n
                                     Mouse movement controls speed and lighting.`}/>
                     </div>
                 </div>
@@ -56,26 +57,19 @@ const Software = () =>
                 {/*             button={"Youtube Demo"}*/}
                 {/*             link={"https://www.youtube.com/watch?v=8S3BLrYq4Xk"}/>*/}
                 <div className={"card"}>
-                    <img className="card-img-top rounded-circle" src={particle} alt="aws logo"/>
+                    <img className="card-img-top rounded-circle" src={r_logo} alt="R studio logo"/>
                     <div className="card-body">
                         <h5 className="card-title">
-                            Particle Simulator
+                            Journal Datamining
                         </h5>
-                        <p className="card-text">Graphics project using OpenGL/C++ </p>
-                        <br/>
-                        <ModalImage title={"Particle Simulator"}
-                                    isVideo={true}
-                                    // imgSrc={medMine}
-                                    buttonText={"Show Gif"}
-                                    text={`A particle simulator created in OpenGL/C++.\n
-                                    Mouse movement controls speed and lighting.`}/>
+                        <p className="card-text">Project using R to datamine a Journal in xml format</p>
+                        <ModalImage title={"Datamining Journal Entries"}
+                                    isPDF={true}
+                                    imgSrc={journal_data_mine}
+                                    buttonText={"See R Markup"}
+                                    text={`Schema and queries for mining journal data.`}/>
                     </div>
                 </div>
-                <ProjectCard title={"All Ears Android App"}
-                             imageSrc={all_ears_png}
-                             description={"Ear Training app developed for Android"}
-                             button={"R Markdown"}
-                             link={"./journal_mine"}/>
             </div>
     </div>
 

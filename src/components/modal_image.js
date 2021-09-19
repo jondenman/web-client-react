@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Modal from "react-bootstrap/Modal";
 import serverless_diagram_png from "../diagrams/serverless_diagram.png";
 
-const ModalImage = ({title, imgSrc, buttonText, text, isVideo, isHTML}) => {
+const ModalImage = ({title, imgSrc, buttonText, text, isVideo, isPDF}) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -24,12 +24,12 @@ const ModalImage = ({title, imgSrc, buttonText, text, isVideo, isHTML}) => {
                         <video loop autoPlay={true} src={imgSrc} type={"videos/mov"}></video>
                     }
                     {
-                        !isVideo &&
+                        !isVideo && !isPDF &&
                         <img src={imgSrc}></img>
                     }
                     {
-                        isHTML &&
-                        <div dangerouslySetInnerHTML={ {__html: imgSrc} } />
+                        isPDF &&
+                        <embed src={imgSrc} type={"application/pdf"} width={700} height={500}/>
                     }
                     <p>{text}</p>
                 </Modal.Body>
