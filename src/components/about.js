@@ -8,7 +8,7 @@ const About = () =>
     <div id={'about'}>
         <br/>
         <br/>
-        <h1>About</h1>
+        <h2>About</h2>
         <div className={"row justify-content-center"}>
             <div className={"col-8"}>
                 <SkillCard title={"Who am I?"}

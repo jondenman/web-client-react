@@ -13,7 +13,12 @@ html, body, #app, #app>div {
 
 h1, h2, h3, h4, h5, p {
   text-align: center;
-  /*font-family: "Merriweather";*/
+  font-family: "Raleway";
+}
+
+h2 {
+  font-size: xxx-large;
+  font-weight: bold;
 }
 
 

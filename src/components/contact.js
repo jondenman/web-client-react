@@ -6,7 +6,7 @@ const Contact = () =>
     <div id={'contact'}>
         <br/>
         <br/>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <FindMe/>
     </div>
 

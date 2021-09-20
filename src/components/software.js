@@ -13,16 +13,10 @@ const Software = () =>
     <div id={"software"}>
         <br/>
         <br/>
-        <h1>Software</h1>
+        <h2>Software</h2>
             <div className={"row row-cols-1 row-cols-sm-2 row-cols-lg-4 p-5 p-sm-0"}>
-                <ProjectCard title={"All Ears Android App"}
-                             external={true}
-                             imageSrc={all_ears_png}
-                             description={"Ear Training app developed for Android"}
-                             button={"All Ears Github"}
-                             link={"https://github.com/nikhilnair23/AllEars"}/>
                 <div className={"card d-flex"}>
-                    <img className="card-img-top rounded-circle" src={"https://ps.w.org/amazon-polly/assets/icon-256x256.png?rev=2183954"} alt="aws logo"/>
+                    <img className="card-img-top rounded-circle p-3" src={"https://ps.w.org/amazon-polly/assets/icon-256x256.png?rev=2183954"} alt="aws logo"/>
                     <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Serverless Cloud Solution
@@ -36,7 +30,7 @@ const Software = () =>
                     </div>
                 </div>
                 <div className={"card d-flex"}>
-                    <img className="card-img-top rounded-circle" src={particle} alt="aws logo"/>
+                    <img className="card-img-top rounded-circle p-3" src={particle} alt="aws logo"/>
                     <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Particle Simulator
@@ -57,7 +51,7 @@ const Software = () =>
                 {/*             button={"Youtube Demo"}*/}
                 {/*             link={"https://www.youtube.com/watch?v=8S3BLrYq4Xk"}/>*/}
                 <div className={"card d-flex"}>
-                    <img className="card-img-top rounded-circle" src={r_logo} alt="R studio logo"/>
+                    <img className="card-img-top rounded-circle p-3" src={r_logo} alt="R studio logo"/>
                     <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Journal Datamining
@@ -70,6 +64,12 @@ const Software = () =>
                                     text={`Schema and queries for mining journal data.`}/>
                     </div>
                 </div>
+                <ProjectCard title={"All Ears Android App"}
+                             external={true}
+                             imageSrc={all_ears_png}
+                             description={"Ear Training app developed for Android"}
+                             button={"All Ears Github"}
+                             link={"https://github.com/nikhilnair23/AllEars"}/>
             </div>
     </div>
 

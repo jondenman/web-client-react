@@ -32,7 +32,7 @@ const FindMe = () =>
                              imageSrc={emaillogo}
                              description={"Email Me"}
                              button={"LinkedIn"}
-                             link={"mailto:denmanjonathan@gmail.com"}/>
+                             link={"mailto:denmanjonathan@gmail.com?subject=Nice Website! Let's Connect"}/>
             </div>
 
 
