@@ -16,7 +16,7 @@ const About = () =>
             </div>
         </div>
         {/*<h2>Core Languages</h2>*/}
-        <div className={"card-deck container-fluid"}>
+        <div className={"row row-cols-4"}>
             <SkillCard title={"Java"}
                        imageSrc={"https://www.shareicon.net/data/2016/09/23/833700_windows_512x512.png"}
                        //description={"Java programming with a focus on object oriented design"}

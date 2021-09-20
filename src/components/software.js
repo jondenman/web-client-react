@@ -14,7 +14,7 @@ const Software = () =>
         <br/>
         <br/>
         <h1>Software</h1>
-            <div className={"card-deck"}>
+            <div className={"row row-cols-1 row-cols-sm-2 row-cols-lg-4 p-5 p-sm-0"}>
                 <ProjectCard title={"All Ears Android App"}
                              external={true}
                              imageSrc={all_ears_png}
