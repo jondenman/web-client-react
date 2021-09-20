@@ -15,16 +15,16 @@ const ProjectCard = ({title, description, button, link, imageSrc, external}) => 
     // }
 
     return (
-            <div className="card">
+            <div className="card d-flex">
                 <img className="card-img-top rounded-circle" src={imageSrc} alt="Card image cap"/>
-                <div className="card-body">
+                <div className="card-body d-flex flex-column">
                     <h5 className="card-title">
                         {title}
                     </h5>
                     <p className="card-text">{description}</p>
                     {
                         external &&
-                        <a href={link} className="btn btn-primary">
+                        <a href={link} className="btn btn-primary mt-auto">
                             {button} &nbsp;
                             <i className="fas fa-external-link-alt"></i>
                         </a>

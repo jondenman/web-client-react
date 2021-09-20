@@ -10,7 +10,7 @@ const ModalImage = ({title, imgSrc, buttonText, text, isVideo, isPDF}) => {
 
     return (
         <>
-            <a className={"btn btn-primary"} variant="primary" onClick={handleShow}>
+            <a className={"btn btn-primary mt-auto"} variant="primary" onClick={handleShow}>
                 {buttonText}
             </a>
 

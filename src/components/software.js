@@ -21,9 +21,9 @@ const Software = () =>
                              description={"Ear Training app developed for Android"}
                              button={"All Ears Github"}
                              link={"https://github.com/nikhilnair23/AllEars"}/>
-                <div className={"card"}>
+                <div className={"card d-flex"}>
                     <img className="card-img-top rounded-circle" src={"https://ps.w.org/amazon-polly/assets/icon-256x256.png?rev=2183954"} alt="aws logo"/>
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Serverless Cloud Solution
                         </h5>
@@ -35,9 +35,9 @@ const Software = () =>
                         "                            processing assembly line. This project leverages AWS Lambda and Amazon Rekognition."}/>
                     </div>
                 </div>
-                <div className={"card"}>
+                <div className={"card d-flex"}>
                     <img className="card-img-top rounded-circle" src={particle} alt="aws logo"/>
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Particle Simulator
                         </h5>
@@ -56,9 +56,9 @@ const Software = () =>
                 {/*             description={"Graphics project using OpenGL/C++" + " -"}*/}
                 {/*             button={"Youtube Demo"}*/}
                 {/*             link={"https://www.youtube.com/watch?v=8S3BLrYq4Xk"}/>*/}
-                <div className={"card"}>
+                <div className={"card d-flex"}>
                     <img className="card-img-top rounded-circle" src={r_logo} alt="R studio logo"/>
-                    <div className="card-body">
+                    <div className="card-body d-flex flex-column">
                         <h5 className="card-title">
                             Journal Datamining
                         </h5>

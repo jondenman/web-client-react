@@ -11,7 +11,7 @@ const SkillCard = ({title, description, imageSrc, altText}) => {
                  // height={300}
                  />
             <div className="card-body">
-                <h5 className="card-title justify-content-center d-none d-sm-block">
+                <h5 className="card-title justify-content-center d-none d-md-block">
                     {title}
                 </h5>
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import ProjectCard from "./project-card";
 import SkillCard from "./skill-card";
+import r_logo from '../logos/r_studio.png'
 import "./about.css";
 
 const About = () =>
@@ -33,6 +34,19 @@ const About = () =>
                        imageSrc={"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"}
                 //description={"Clean code"}
                        altText={"React Logo"}/>
+            <SkillCard title={"MySQL"}
+                       imageSrc={"https://icon-library.com/images/mysql-icon/mysql-icon-3.jpg"}
+                       altText={"MySQL logo"}/>
+            <SkillCard title={"MongoDB"}
+                       imageSrc={"https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-mongodb/events/mon.png"}
+                       altText={"MongoDB logo"}/>
+            <SkillCard title={"AWS"}
+                       imageSrc={"https://ps.w.org/amazon-polly/assets/icon-256x256.png?rev=2183954"}
+                       altText={"AWS logo"}/>
+            <SkillCard title={"R"}
+                       imageSrc={r_logo}
+                       altText={"AWS logo"}/>
+
         </div>
 
 
