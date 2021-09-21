@@ -3,6 +3,7 @@ import ProjectCard from "./project-card";
 import SkillCard from "./skill-card";
 import r_logo from '../logos/r_studio.png'
 import "./about.css";
+import HeadshotCard from "./headshot-card";
 
 const About = () =>
     <div id={'about'}>
@@ -10,8 +11,8 @@ const About = () =>
         <br/>
         <h2>About</h2>
         <div className={"row justify-content-center"}>
-            <div className={"col-8"}>
-                <SkillCard title={"Who am I?"}
+            <div className={"col-4"}>
+                <HeadshotCard title={"Who am I?"}
                            description={"A software engineer with an electronic music production background"}
                            imageSrc={"https://media-exp1.licdn.com/dms/image/C4E03AQHu3NpTKhjFxg/profile-displayphoto-shrink_400_400/0/1539376123582?e=1636588800&v=beta&t=F_Nev2H0qAJjdkAM2prUsqObVeH0zgJ7KNtUOasopeg"}/>
             </div>

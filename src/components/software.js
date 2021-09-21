@@ -14,7 +14,7 @@ const Software = () =>
         <br/>
         <br/>
         <h2>Software</h2>
-            <div className={"row row-cols-1 row-cols-sm-2 row-cols-lg-4 p-5 p-sm-0"}>
+            <div className={"row row-cols-1 row-cols-sm-2 row-cols-lg-4 p-3 p-sm-0"}>
                 <div className={"card d-flex"}>
                     <img className="card-img-top rounded-circle p-3" src={"https://ps.w.org/amazon-polly/assets/icon-256x256.png?rev=2183954"} alt="aws logo"/>
                     <div className="card-body d-flex flex-column">
