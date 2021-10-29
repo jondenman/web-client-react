@@ -8,31 +8,35 @@ const NavBar = () =>
             {/*<div className = "col-1">*/}
             {/*</div>*/}
             <li className="nav-item">
-                <Link className="nav-link" onClick={() => {
+                {/*<Link className="nav-link" onClick={() => {*/}
+                {/*    const anchor = document.querySelector('#home')*/}
+                {/*    anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })*/}
+                {/*}}>*/}
+                <a className={"nav-link"} onClick={() => {
                     const anchor = document.querySelector('#home')
                     anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
                 }}>
                     Home
-                </Link>
+                </a>
             </li>
             <li className="nav-item">
-                <Link className="nav-link" onClick={() => {
+                <a className="nav-link" onClick={() => {
                     const anchor = document.querySelector('#about')
                     anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
                 }}>
                     About
-                </Link>
+                </a>
             </li>
             <li className="nav-item">
                 {/*<Link className="nav-link" to={`/software`}>*/}
                 {/*    Software*/}
                 {/*</Link>*/}
-                <Link className="nav-link" onClick={() => {
+                <a className="nav-link" onClick={() => {
                     const anchor = document.querySelector('#software')
                     anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
                 }}>
                     Software
-                </Link>
+                </a>
 
             </li>
             {/*<li className="nav-item">*/}
@@ -41,12 +45,12 @@ const NavBar = () =>
             {/*    </Link>*/}
             {/*</li>*/}
             <li className="nav-item">
-                <Link className="nav-link" onClick={() => {
+                <a className="nav-link" onClick={() => {
                     const anchor = document.querySelector('#contact')
                     anchor.scrollIntoView({ behavior: 'smooth', block: 'start' })
                 }}>
                     Contact
-                </Link>
+                </a>
             </li>
 
         </ul>

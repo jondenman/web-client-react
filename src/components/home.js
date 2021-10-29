@@ -1,10 +1,11 @@
 import React from 'react';
 import './home.css';
+import backgroundSVG from '../svgs/home_bckgrnd.svg';
 import ProjectCard from "./project-card";
 //import {Link} from 'react-router-dom';
 
 const Home = () =>
-    <div className={"fill-window flex"} id={'home'}>
+    <div className={"fill-window flex"} id={'home'} style={{ backgroundImage: `url(${backgroundSVG})` }}>
         <div className={"d-flex justify-content-lg-center p-5 p-sm-0"}>
             <h1>Oh hey! I'm <strong>Jon Denman</strong>, <br/> a software developer with a background in music.</h1>
         </div>
