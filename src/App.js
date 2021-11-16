@@ -13,6 +13,7 @@ import React from "react";
 import Modal from "./components/modal";
 import ModalImage from "./components/modal_image";
 import JournalMine from "./components/journal_mine";
+import Search from "./components/musicDB/search";
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
               </Route>
               <Route path="/journal_mine" exact={false}>
                   <JournalMine/>
+              </Route>
+              <Route path="/musicdb" exact={true}>
+                  <Search/>
               </Route>
           </div>
       </div>
