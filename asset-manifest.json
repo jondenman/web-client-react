@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/web-client-react/static/css/main.c6b3c77b.chunk.css",
+    "main.js": "/web-client-react/static/js/main.401754de.chunk.js",
+    "main.js.map": "/web-client-react/static/js/main.401754de.chunk.js.map",
+    "runtime-main.js": "/web-client-react/static/js/runtime-main.0002f14c.js",
+    "runtime-main.js.map": "/web-client-react/static/js/runtime-main.0002f14c.js.map",
+    "static/css/2.39f22815.chunk.css": "/web-client-react/static/css/2.39f22815.chunk.css",
+    "static/js/2.e520c9df.chunk.js": "/web-client-react/static/js/2.e520c9df.chunk.js",
+    "static/js/2.e520c9df.chunk.js.map": "/web-client-react/static/js/2.e520c9df.chunk.js.map",
+    "static/js/3.a39a06bf.chunk.js": "/web-client-react/static/js/3.a39a06bf.chunk.js",
+    "static/js/3.a39a06bf.chunk.js.map": "/web-client-react/static/js/3.a39a06bf.chunk.js.map",
+    "index.html": "/web-client-react/index.html",
+    "precache-manifest.f12e18e097cc6c11f7c62a250a0099d0.js": "/web-client-react/precache-manifest.f12e18e097cc6c11f7c62a250a0099d0.js",
+    "service-worker.js": "/web-client-react/service-worker.js",
+    "static/css/2.39f22815.chunk.css.map": "/web-client-react/static/css/2.39f22815.chunk.css.map",
+    "static/css/main.c6b3c77b.chunk.css.map": "/web-client-react/static/css/main.c6b3c77b.chunk.css.map",
+    "static/js/2.e520c9df.chunk.js.LICENSE.txt": "/web-client-react/static/js/2.e520c9df.chunk.js.LICENSE.txt",
+    "static/media/all-ears-homepage.png": "/web-client-react/static/media/all-ears-homepage.0e71bbfd.png",
+    "static/media/all.min.css": "/web-client-react/static/media/fa-solid-900.d824df7e.woff2",
+    "static/media/home_bckgrnd.svg": "/web-client-react/static/media/home_bckgrnd.fa03e08d.svg",
+    "static/media/journal_data_mine.pdf": "/web-client-react/static/media/journal_data_mine.cf041bc8.pdf",
+    "static/media/linderpix-NEU-5752-web copy.jpg": "/web-client-react/static/media/linderpix-NEU-5752-web copy.221db0f6.jpg",
+    "static/media/particle.png": "/web-client-react/static/media/particle.b6f07398.png",
+    "static/media/planet_vid.mov": "/web-client-react/static/media/planet_vid.9b6370ce.mov",
+    "static/media/serverless_diagram.png": "/web-client-react/static/media/serverless_diagram.588e0d9d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0002f14c.js",
+    "static/css/2.39f22815.chunk.css",
+    "static/js/2.e520c9df.chunk.js",
+    "static/css/main.c6b3c77b.chunk.css",
+    "static/js/main.401754de.chunk.js"
+  ]
+}
